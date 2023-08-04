@@ -14,4 +14,3 @@ El objetivo del proyecto al recrear la pagina de incio de google es poner en pra
   - Layouts
     - FLEXBOX
       - Alineacion de elementos
-    - CSS GRID
