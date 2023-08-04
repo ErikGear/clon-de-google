@@ -48,3 +48,17 @@ a:hover {
 .cabecera .navegacion-principal a {
     margin: 1rem;
 }
+
+.cabecera .navegacion-principal a img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.boton1 {
+    color: #ffffff;
+    background-color: #1a73e8;
+    padding: 1rem 2rem;
+    border: 0.1rem solid transparent;
+    border-radius: 0.4rem;
+}
