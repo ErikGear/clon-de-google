@@ -1,0 +1,30 @@
+/*Añadiendo estilos generales al proyecto*/
+
+html {
+    /*Hack para resetear el valro de 1rem = 16px
+    a 1rem = 10px*/
+
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*Hack para solucionar el problema del BOXMODEL*/
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  /*
+    Segunda parte del Hack para solucionar los problemas 
+    del BoxModel
+
+    Esto significa que todos los elementos que se creen antes 
+    o depues emplearan la propiedad BORDER-BOX, del elemento raiz
+    */
+  box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+}
+
