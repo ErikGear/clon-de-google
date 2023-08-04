@@ -87,8 +87,9 @@ a:hover {
 }
 
 .campo-busqueda {
-    max-width: 120REM;
-    margin: .5rem auto;
+   
+    max-width: 100%;
+    margin: 0 2rem;
 }
 
 .busqueda {
