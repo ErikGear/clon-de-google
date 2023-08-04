@@ -55,9 +55,6 @@ a:hover {
     margin: 0 auto;
 }
 
-.icon-aplications {
-    
-}
 
 .boton1 {
     color: #ffffff;
@@ -65,4 +62,19 @@ a:hover {
     padding: 1rem 2rem;
     border: 0.1rem solid transparent;
     border-radius: 0.4rem;
+}
+
+
+/*Definiendo estilos a la sección principal*/
+.logo {
+    max-width: 1200px;
+    height: 9.2rem;
+
+    /*Agregando logo*/
+    background-image: url("../assets/images/google_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /*centrando el contenedor DIV*/
+    margin: 1rem auto;
 }
