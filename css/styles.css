@@ -94,6 +94,10 @@ a:hover {
 .busqueda {
     display: block;
     width: 90%;
+    height: 10%;
     margin: 0 auto;
+    
+    border: none;
 }
+
 
