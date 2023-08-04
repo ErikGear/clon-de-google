@@ -102,3 +102,22 @@ a:hover {
 }
 
 
+/*Agregando estilos a lso botones de Busqueda*/
+.boton-busqueda{
+    color: #000000;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #f8f9fa;
+    border-radius: 0.4rem;
+    margin: 0.11rem 0.4rem;
+}
+
+.boton-busqueda:hover {
+    text-decoration: none;
+    box-shadow: 0.01rem 0.01rem 0.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
