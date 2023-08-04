@@ -63,6 +63,11 @@ a:hover {
     border: 0.1rem solid transparent;
     border-radius: 0.4rem;
 }
+.boton1:hover {
+    text-decoration: none;
+    box-shadow: 0.1rem 0.1rem 0.4rem #000000;
+    transition: all 0.5s ease;
+}
 
 
 /*Definiendo estilos a la sección principal*/
