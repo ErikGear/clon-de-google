@@ -94,10 +94,10 @@ a:hover {
 .busqueda {
     display: block;
     width: 90%;
-    height: 10%;
     margin: 0 auto;
-    
+
     border: none;
+    outline: none; /*El outline, es el border de linea que aparece cuando nos posicionamos en un formulario, para este caso lo retiramos*/
 }
 
 
