@@ -89,6 +89,12 @@ a:hover {
     margin: 1rem auto;
 }
 
+.link-logo {
+    display: block;
+    margin-top: 20rem;
+    margin-bottom: 6rem;
+}
+
 .buscador-marco {
     max-width: 120rem;
     border: 0.1rem solid #ced4da;
@@ -108,14 +114,11 @@ a:hover {
     align-items: center;
 }
 
-.busqueda-botones {
-
-}
-
 .buscador {
     display: block;
     background-color: transparent;
-    width: 90%;
+    width: 47rem;
+    height: 2.5rem;
     padding: 0;
     margin: 0;
     font-size: 16px;
@@ -128,8 +131,14 @@ a:hover {
     
 }
 
+/*Agregando separación entre bloques de busqueda*/
+.busqueda-botones {
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
 
-/*Agregando estilos a lso botones de Busqueda*/
+
+/*Agregando estilos a los botones de Busqueda*/
 .boton-busqueda{
     color: #000000;
     text-decoration: none;
