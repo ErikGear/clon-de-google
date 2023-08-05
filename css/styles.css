@@ -157,7 +157,16 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.description {
+.bg-description {
+    display: flex;
+    
+}
+
+.description-p {
+    font-size: small;
+}
+
+.description-a {
     color: #1a0dab;
     font-size: small;
 }
@@ -170,17 +179,23 @@ footer {
 }
 
 .pie-item {
+    font-family: arial,sans-serif;
+    font-size: 1.4rem;
     color: #70757a;
     padding: 0.15rem;
 
 }
 footer p.pie-item {
     border-bottom: 0.1rem solid #dadce0;
-    padding: 0.15rem 3rem;
+    padding: 1.5rem 3rem;
 }
+
 
 footer .referencias {
     display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    padding: 0 2rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
