@@ -45,7 +45,7 @@ a:hover {
 /*Definiendo alienamiento a la navegación principal*/
 .cabecera .navegacion-principal {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
     justify-content: flex-end;
 }
 
