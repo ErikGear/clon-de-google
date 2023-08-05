@@ -135,3 +135,24 @@ a:hover {
 }
 
 
+/*Definiendo estilos a los elementos del Pie de pagina*/
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.pie-item {
+    color: #70757a;
+    padding: 0.15rem;
+
+}
+footer p.pie-item {
+    border-bottom: 0.1rem solid #dadce0;
+    padding: 0.15rem 3rem;
+}
+
+footer .referencias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
