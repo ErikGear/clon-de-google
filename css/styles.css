@@ -97,6 +97,8 @@ a:hover {
 }
 
 .buscador-marco {
+    display: flex;
+    justify-content: baseline;
     max-width: 120rem;
     border: 0.1rem solid #ced4da;
     padding: 0.5rem 0.8rem 0 1.4rem;
