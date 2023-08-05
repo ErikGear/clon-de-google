@@ -133,6 +133,8 @@ a:hover {
 
 /*Agregando separación entre bloques de busqueda*/
 .busqueda-botones {
+    display: flex;
+    justify-content: center;
     margin-top: 1.8rem;
     margin-bottom: 1.8rem;
 }
@@ -163,7 +165,7 @@ a:hover {
     align-items: center;
 }
 
-.bg-description > p {
+.bg-description > p.description {
     flex-grow: 1;
 }
 
