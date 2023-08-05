@@ -92,24 +92,40 @@ a:hover {
 .buscador-marco {
     max-width: 120rem;
     border: 0.1rem solid #ced4da;
-    margin: 4rem auto;
+    margin: 0 auto;
+    margin-bottom: 4rem;
     border-radius: 4rem;
 }
 
 .campo-busqueda {
-   
-    max-width: 100%;
-    margin: 0 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.busqueda-botones {
+
+}
+
+.buscador {
     display: block;
+    background-color: transparent;
     width: 90%;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 18px;
 
     border: none;
     outline: none; /*El outline, es el border de linea que aparece cuando nos posicionamos en un formulario, para este caso lo retiramos*/
     resize: none; /*Definiendo que el TextArea no sera redimensionable*/
+
+    
 }
 
 
