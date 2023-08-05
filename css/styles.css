@@ -122,7 +122,7 @@ a:hover {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    margin-bottom: 18px;
+    margin-bottom: 1.8rem;
 
     border: none;
     outline: none; /*El outline, es el border de linea que aparece cuando nos posicionamos en un formulario, para este caso lo retiramos*/
@@ -141,6 +141,7 @@ a:hover {
 /*Agregando estilos a los botones de Busqueda*/
 .boton-busqueda{
     color: #000000;
+    font-size: 1.4rem;
     text-decoration: none;
     background-color: #f8f9fa;
     padding: 1rem 2rem;
@@ -157,7 +158,8 @@ a:hover {
 }
 
 .description {
-    color: #1a0dab;  
+    color: #1a0dab;
+    font-size: small;
 }
 
 
