@@ -132,6 +132,22 @@ a:hover {
     
 }
 
+/*Agregando iconos a la barra de busqueda*/
+.icono {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.icono-lupa {
+    background-image: url("../assets/icons/lupa.png");
+}
+.icono-microfono {
+    background-image: url("../assets/icons/google-voice.png");
+}
+.icono-lens {
+    background-image: url("../assets/icons/google_lens.png");
+}
+
 /*Agregando separación entre bloques de busqueda*/
 .busqueda-botones {
     display: flex;
