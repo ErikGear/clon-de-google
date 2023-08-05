@@ -162,11 +162,11 @@ a:hover {
     
 }
 
-.description-p {
+p.description  {
     font-size: small;
 }
 
-.description-a {
+a.description {
     color: #1a0dab;
     font-size: small;
 }
