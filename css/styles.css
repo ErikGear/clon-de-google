@@ -109,6 +109,7 @@ a:hover {
 
     border: none;
     outline: none; /*El outline, es el border de linea que aparece cuando nos posicionamos en un formulario, para este caso lo retiramos*/
+    resize: none; /*Definiendo que el TextArea no sera redimensionable*/
 }
 
 
