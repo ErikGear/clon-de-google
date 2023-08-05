@@ -99,6 +99,7 @@ a:hover {
 .buscador-marco {
     max-width: 120rem;
     border: 0.1rem solid #ced4da;
+    padding: 0.5rem 0.8rem 0 1.4rem;
     margin: 0 auto;
     margin-bottom: 4rem;
     border-radius: 4rem;
@@ -120,10 +121,9 @@ a:hover {
     background-color: transparent;
     width: 47rem;
     height: 2.5rem;
-    padding: 0;
-    margin: 0;
+    margin: 0.5rem 0;
     font-size: 16px;
-    margin-bottom: 1.8rem;
+   
 
     border: none;
     outline: none; /*El outline, es el border de linea que aparece cuando nos posicionamos en un formulario, para este caso lo retiramos*/
