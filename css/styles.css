@@ -179,6 +179,9 @@ a.description {
 
 footer {
     background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .pie-item {
