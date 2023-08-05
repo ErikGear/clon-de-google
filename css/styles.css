@@ -100,6 +100,7 @@ a:hover {
     display: flex;
     justify-content: baseline;
     max-width: 120rem;
+    height:4.5rem;
     border: 0.1rem solid #ced4da;
     padding: 0.5rem 0.8rem 0 1.4rem;
     margin: 0 auto;
@@ -138,6 +139,7 @@ a:hover {
 .icono {
     width: 2.4rem;
     height: 2.4rem;
+    margin: 0.5rem;
 }
 
 .icono-lupa {
@@ -145,6 +147,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-right: 1rem;
 }
 .icono-microfono {
     background-image: url("../assets/icons/google-voice.png");
