@@ -140,12 +140,21 @@ a:hover {
 
 .icono-lupa {
     background-image: url("../assets/icons/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .icono-microfono {
     background-image: url("../assets/icons/google-voice.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .icono-lens {
     background-image: url("../assets/icons/google_lens.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*Agregando separación entre bloques de busqueda*/
